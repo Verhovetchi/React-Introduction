@@ -1,0 +1,25 @@
+service este un functional separat
+
+fetch API este un ApI built in ultilizat pentru a primi date din exterior
+(primeste url si request options(dar nu e obligatoriu))
+
+fetch api returneaza raspunsul in 2 parti(1-status code si ok bool, 2-datele)
+	tipuri de date returnate - text, json, blob, chunk
+
+promise este un obiect wrapper la o valoare.
+
+
+un pending(cand se face requestul) poate sa aiba sau fulfilled(rezolvat) sau rejected(error)
+
+promise are state si result
+
+then primeste 2 functii(una pentru fullfild si una pentru rejected)
+
+promise are 2 metode:
+	promise all - daca se executa toatem se resolved
+	promise race - intoarce primul rezultat
+
+se face in virtual dom(si se compara cu dom-ul precedent si incarca doar schimbarile)
+
+
+async ne permite sa nu blocam thread-ul curent

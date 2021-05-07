@@ -1,0 +1,39 @@
+SPA - single page application
+
+SPA este mai rapida, incarca fisierelea o singura data.
+
+React-ul este o librarie Javascript
+
+React lucreaza cu virtual DOM
+
+JSX este o extensie a js. si contine html + xml
+
+npm - comenzile de la node.js
+
+/src  -directoriu cu fisierele noaste
+
+index.tsx - punctul de intrare
+
+package.json - pachetele pe care le folosim
+
+component - logica din pagina noastra scoasa aparte
+
+componenta poate fi ori clasa ori functie
+
+
+O componenta trebuie sa contina:  -importul la react
+				  -exportul pentru a o putea folosi
+
+	Daca avem o clasa, ea trebuie sa extinda React.Component si in ea trebuie sa 
+avem metoda render
+
+
+Props - input paramentri la functii, clase. Propul nu trebuie schimbate.
+	-sunt primite din afara componentei
+
+State - sunt declarate in interior si pot fi modificate
+
+in clasa ii indicam this.props.name
+in function pur si simplu props.name
+
+state se trimite dupa props
